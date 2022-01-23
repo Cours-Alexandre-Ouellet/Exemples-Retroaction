@@ -1,0 +1,9 @@
+.titre {
+    -fx-font-size: 22pt;
+}
+.erreur-retroaction {
+    -fx-fill: red;
+}
+.validation-retroaction {
+    -fx-fill: darkGreen;
+}

@@ -1,0 +1,12 @@
+.titre {
+    -fx-font-size: 22pt;
+}
+TextField {
+    -fx-border-width: 2px;
+}
+.erreur-retroaction {
+    -fx-border-color: red;
+}
+.validation-retroaction {
+    -fx-border-color: darkGreen;
+}
