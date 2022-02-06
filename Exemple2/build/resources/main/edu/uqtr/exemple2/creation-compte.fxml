@@ -10,7 +10,7 @@
 <?import javafx.scene.control.TextField?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="edu.uqtr.exemple2.CreationCompte"
-      stylesheets="creation-compte.css">
+      stylesheets="@creation-compte.css">
     <padding>
         <Insets left="20" right="20"/>
     </padding>
@@ -35,7 +35,7 @@
     <Text fx:id="retroactionGlobale"></Text>
 
     <HBox alignment="CENTER">
-        <Button onMouseClicked="#onConfirmation">Créer mon compte</Button>
+        <Button onMouseClicked="#onSoumission">Créer mon compte</Button>
     </HBox>
 
 </VBox>

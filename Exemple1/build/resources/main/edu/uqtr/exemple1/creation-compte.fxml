@@ -10,7 +10,7 @@
 <?import javafx.scene.control.TextField?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="edu.uqtr.exemple1.CreationCompte"
-      stylesheets="creation-compte.css">
+      stylesheets="@creation-compte.css">
     <padding>
         <Insets left="20" right="20"/>
     </padding>
